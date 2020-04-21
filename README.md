@@ -1,2 +1,2 @@
-# md-s2-project-template
+# Prototyping Project
  
