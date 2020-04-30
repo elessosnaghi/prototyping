@@ -6,9 +6,10 @@ public class Spawner : MonoBehaviour
 {
     public GameObject[] prefabs;
 
+    public Transform spawnPoint;
     public void Spawn()
     {
         var prefab = prefabs[Random.Range(0, prefabs.Length)];
-        Instantiate(prefab, transform.position, transform.rotation);
+        Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
     }
 }
